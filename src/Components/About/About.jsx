@@ -1,6 +1,7 @@
 import React from "react";
 import AboutImg from "../../assets/7358653-removebg-preview.png";
 import { IoArrowForward } from "react-icons/io5";
+
 const About = () => {
   return (
     <div
@@ -18,14 +19,10 @@ const About = () => {
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Frontend developer
+                  Data Analyst
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores explicabo deserunt asperiores quasi, vitae blanditiis
-                  perferendis quos consectetur ea harum! Libero aut qui
-                  similique recusandae provident consectetur sed itaque alias
-                  sint ipsa?
+                  I am currently pursuing a Master’s in Analytics at Northeastern University, Boston, where I specialize in data analysis, visualization, and machine learning. With a Bachelor's degree in Civil Engineering from NIT Warangal, I bring a unique blend of technical and analytical skills to solve complex problems.
                 </p>
               </span>
             </div>
@@ -34,11 +31,10 @@ const About = () => {
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Database developer
+                  Technical Skills
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores
+                  Proficient in Python, SQL, Tableau, Power BI, and AWS. Experienced in utilizing tools like NumPy, Pandas, and Scikit-learn to derive actionable insights from data.
                 </p>
               </span>
             </div>
@@ -47,12 +43,10 @@ const About = () => {
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Backend developer
+                  Professional Experience
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores explicabo deserunt asperiores quasi, vitae blanditiis
-                  perferendis
+                  During my internship at Net Vision Resources, I optimized website conversion rates through A/B testing and utilized SQL and Snowflake to generate insights from 30+ KPIs. My freelancing experience as a Search Engine Evaluator enhanced my understanding of data relevance and algorithm optimization.
                 </p>
               </span>
             </div>

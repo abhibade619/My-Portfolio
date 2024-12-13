@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { RiCloseLine, RiMenu2Line } from "@remixicon/react";
+
 const Navbar = () => {
   const [menu, openMenu] = useState(false);
   const [showMenu, setShowmenu] = useState(true);
+
   return (
     <nav className="flex flex-wrap justify-between md:items-center text-white px-10 pt-6 md:px-20">
-      <span className="text-xl font-bold tracking-wide">Portfolio</span>
+      <span className="text-xl font-bold tracking-wide">Abhishek's Portfolio</span>
 
       <ul
         className={`${
@@ -46,6 +48,10 @@ const Navbar = () => {
         <RiCloseLine
           size={30}
           className="md:hidden absolute right-10 top-6 transition-all duration-300"
+          onClick={() => {
+            openMenu(!menu);
+            setShowmenu(!showMenu);
+          }}
         />
       )}
     </nav>

@@ -7,18 +7,17 @@ const Home = () => {
     <div className="text-white flex w-full justify-between items-start p-10 md:p-20">
       <div className="md:w-2/4 md:pt-10 ">
         <h1 className="text-xl md:text-6xl font-bold flex leading-normal tracking-tighter">
-          <TextChange />
+          Hi, I’m Abhishek Bade
         </h1>
         <p className="text-sm md:text-2xl tracking-tight ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
-          doloremque?
+          A passionate Data Analyst with expertise in data visualization, machine learning, and building impactful solutions. Currently pursuing my Master’s in Analytics at Northeastern University.
         </p>
         <button className="mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
           Contact Me
         </button>
       </div>
       <div>
-        <img className="" src={avatarImg} alt="" />
+        <img className="" src={avatarImg} alt="Abhishek Bade" />
       </div>
     </div>
   );
