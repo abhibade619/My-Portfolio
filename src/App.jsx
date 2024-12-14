@@ -1,3 +1,4 @@
+import React from 'react';
 import About from "./Components/About/About";
 import Experience from "./Components/Experience/Experience";
 import Footer from "./Components/Footer/Footer";
